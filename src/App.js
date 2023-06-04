@@ -1,6 +1,12 @@
-import React  from "react";
+import React from "react";
+import PostCreate from "./PostCreate";
 
-const mainpage =  ()=>{
-    return <div> Welcome to Blog  App</div>;
+const App = () => {
+  return (
+    <div className="container">
+      <h1>Create Post</h1>
+      <PostCreate />
+    </div>
+  );
 };
-export default mainpage;
+export default App;
