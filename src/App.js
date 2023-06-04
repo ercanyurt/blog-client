@@ -1,5 +1,6 @@
 import React  from "react";
 
-export default () =>{
+const mainpage =  ()=>{
     return <div> Blog  App</div>;
 };
+export default mainpage;
